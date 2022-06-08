@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(27, 27, 30);
+  color: white;
+}
+
+.scroll-tracker {
+  position: fixed;
+  inset: 0 0 auto;
+  height: 0.5rem;
+  background-color: cornflowerblue;
+  transform-origin: left;
+}
+
+.relleno {
+  width: 75ch;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-rotate-in {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
